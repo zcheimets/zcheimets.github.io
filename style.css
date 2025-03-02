@@ -51,7 +51,7 @@ body {
 .journey,
 .work {
     margin: 40px 0;
-    color: #000;
+    color: #312f2e;
 }
 
 .grid {
@@ -81,7 +81,7 @@ img {
 }
 
 footer {
-    background: #f0f0f0;
+    background: #f4e5e5;
     padding: 20px 0;
     text-align: center;
 }
