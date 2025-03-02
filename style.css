@@ -1,0 +1,87 @@
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat-Light.ttf);
+    font-weight: light;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat-Regular.ttf);
+}
+
+
+header {
+    font-family: montserrat;
+    font-weight: bolder;
+    background: #312f2e;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #312f2e 3px solid;
+}
+
+header h1 {
+    padding: 5px 0;
+}
+
+body {
+    font-family: montserrat;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    color: #312f2e;
+    background-color: #fff3f3;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.about,
+.skills,
+.contact,
+.journey,
+.work {
+    margin: 40px 0;
+    color: #000;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about img {
+    float: left;
+    margin-right: 20px;
+}
+
+footer {
+    background: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
