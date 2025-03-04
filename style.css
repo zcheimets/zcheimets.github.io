@@ -130,3 +130,9 @@ footer {
 .menu a:hover {
     color:#fbbaba
 }
+
+#iss {
+    display: inline;
+    font-size: 15px;
+    color: #ffffff;
+}
