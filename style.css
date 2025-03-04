@@ -37,7 +37,7 @@ img {
 }
 
 .about img {
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
     border-radius: 50%;
     float: left;
@@ -62,7 +62,6 @@ body {
 }
 
 .about,
-.skills,
 .contact,
 .journey,
 .work {
