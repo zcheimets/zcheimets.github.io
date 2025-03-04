@@ -7,6 +7,7 @@
 - Could add a next button to go to the next project
 - Add a hover option over the project images to show it's an interactive link
 - Reformat images
+- Fix anchor links
 -->
 
 
@@ -21,12 +22,19 @@
 
 <body>
     <header>
-        <div class="container">
+        <nav class="navbar">
             <h1>Zoe Cheimets</h1>
-        </div>
+            <div class="menu">
+                <a href="/index.html">Home</a>
+                <a href="/index.html#about">About Me</a>
+                <a href="/index.html#journey">My Journey</a>
+                <a href="/index.html#work">My Projects</a>
+                <a href="/index.html#contact">Contact Me</a>
+            </div>
+        </nav>
     </header>
     <div class="container">
-        <section class="about">
+        <section class="about" id="about">
             <img src="/img/grad_pic.JPG" alt="Zoe Cheimets">
             <h2>About Me</h2>
             <p>
@@ -38,31 +46,81 @@
             </p>
         </section>
 
-        <section class="journey">
+        <br>
+
+
+        <section class="journey" id="journey">
             <h2>My Journey</h2>
+            <p>
+                I am a University of Michigan graduate with a B.S. in Computer Engineering, driven by a passion for
+                space
+                exploration and the future of human spaceflight and solar system colonization. My career so far has
+                given me the incredible opportunity to contribute to these ambitions—most notably during my time at
+                NASA's Jet Propulsion Laboratory, where I worked on the Mars Sample Return Mission in simulation. That
+                summer remains one of the most defining experiences of my life.
+            </p>
+            <p>
+                Beyond my technical background, I find deep fulfillment in helping others. I spend time volunteering at
+                Rosie's Place in Boston, and I have also had the chance to bring people together professionally—earning
+                an
+                award for organizing a nationwide team bonding activity during my time at Raytheon IT.
+            </p>
+            <p>
+                After years of dedicating myself to academics, I took a gap year to reconnect with my interests,
+                including reading, volunteering, and spending time with dogs. I love a great story, especially science
+                fiction and mysteries, and my current favorite book is Old Man's War. Lately, I have been branching into
+                non-fiction as well.
+            </p>
+            <p>
+                Ultimately, my biggest dream is to one day go to space. Until then, I am excited to keep exploring new
+                opportunities that bring us closer to that future—both for myself and for humanity.
+            </p>
             <b></b>
         </section>
 
-        <section class="work">
-            <h2> My Portfolio</h2>
+        <section class="work" id="work">
+            <h2> My Projects</h2>
             <div class="grid">
+                <!-- "_self" opens link in current tab vs "_blank" opens link in new tab-->
                 <div class="project">
-                    <a href="bliss.html" target="_blank">
+                    <a href="/bliss.html" target="_self">
                         <img src="/img/ICON_Project_Olympus.jpg">
                     </a>
                 </div>
                 <div class="project">
-                    <a href="biosensor.html" target="_blank">
+                    <a href="/biosensor.html" target="_self">
                         <img src="/img/Ford_Biosensor_Lab.JPG">
                     </a>
                 </div>
                 <div class="project">
-                    <a href="jpl.html" target="_blank">
+                    <a href="/jpl.html" target="_self">
                         <img src="/img/Family_JPL.JPG">
                     </a>
                 </div>
             </div>
 
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <div class="links">
+                <div>
+                    <a href="https://linkedin.com/in/zoe-cheimets/" target="LinkedIn">
+                        <img
+                            src="https://static.vecteezy.com/system/resources/previews/018/930/585/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png">
+                    </a>
+                </div>
+                <div>
+                    <a href="mailto:zoe.cheimets@gmail.com">
+                        <img
+                            src="https://static.vecteezy.com/system/resources/previews/014/455/849/non_2x/email-envelope-outline-icon-on-transparent-background-free-png.png">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/zcheimets" target="GitHub">
+                        <img src="https://pngimg.com/uploads/github/github_PNG80.png">
+                    </a>
+                </div>
+            </div>
         </section>
     </div>
     <footer>
