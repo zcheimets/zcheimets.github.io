@@ -1,0 +1,81 @@
+/*
+Defines general use style:
+    - body font
+    - footer
+    - containers
+    - etc
+*/
+
+
+@import "font-def.css";          /*needed to use montserrat font*/
+
+html {
+    /* keeps anchor points from opening behind the navbar */
+    scroll-padding-top: 7rem;
+}
+
+header {
+    font-family: montserrat;
+    font-weight: bolder;
+    background: #312f2e;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #312f2e 3px solid;
+}
+
+header h1 {
+    padding: 5px 0;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+
+body {
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    color: #312f2e;
+    background-color: #fff3f3;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.about,
+.contact,
+.journey,
+.work {
+    margin: 40px 0;
+    color: #312f2e;
+}
+
+footer {
+    background: #f4e5e5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#iss {
+    font-family: montserrat;
+    display: inline;
+    font-size: 12px;
+    color: #ffffff;
+}

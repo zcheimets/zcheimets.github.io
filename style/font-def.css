@@ -1,0 +1,22 @@
+/*
+This file defines the font montserrat (downloaded into /fonts dir)
+Includes weight: bold, light, regular
+*/
+
+
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/Montserrat-Light.ttf);
+    font-weight: light;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}

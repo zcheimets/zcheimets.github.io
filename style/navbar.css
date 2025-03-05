@@ -1,0 +1,60 @@
+/*
+Style for the navbar at the top of each page, including Contact dropdown menu
+*/
+
+
+@import "font-def.css";         /*needed to use montserrat font*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #312f2e;
+}
+/* navbar header */
+.navbar h1 {
+    margin-left: 40px;
+    font-size: xx-large;
+}
+
+/* navbar content */
+.menu a {
+    margin-right: 20px;
+    font-family: montserrat;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu a:hover {
+    color:#fbbaba
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;     /*when you hover, show dropdown*/
+}
+
+.dropdown-button { /*Contact Me button*/
+    margin-right: 20px;
+    font-family: montserrat;
+    color: #ffffff;
+}
+
+.dropdown-content {
+    display: none; /*Hidden by default*/
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 100px;
+}
+
+.dropdown-content a { /*Style each link in the dropdown menu*/
+    font-family: montserrat;
+    color:#312f2e;
+    align-content: center;
+}
