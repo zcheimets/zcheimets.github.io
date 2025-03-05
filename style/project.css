@@ -43,3 +43,14 @@ Style for project-related elements:
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+.proj-info {
+    display: grid;
+    /* margin-left: 350px;
+    margin-right: 400px; */
+    grid-template-columns: 1fr 1fr;
+}
+
+/* .info {
+
+} */

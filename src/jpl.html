@@ -22,7 +22,14 @@
                 <a href="index.html#about">About Me</a>
                 <a href="index.html#journey">My Journey</a>
                 <a href="index.html#work">My Projects</a>
-                <a href="index.html#contact">Contact Me</a>
+                <div class="dropdown">
+                    <div class="dropdown-button">Contact Me</div>
+                    <div class="dropdown-content">
+                        <a href="https://linkedin.com/in/zoe-cheimets/" target="LinkedIn">LinkedIn</a>
+                        <a href="mailto:zoe.cheimets@gmail.com">Email</a>
+                        <a href="https://github.com/zcheimets" target="GitHub">GitHub</a>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -30,15 +37,25 @@
         <section class="proj-page">
             <h2>NASA Jet Propulsion Laboratory</h2>
             <img src="../img/Family_JPL.JPG">
+            <div class="proj-info">
+                <div class="info">
+                    <b>Location</b>
+                    <p>Pasadena, CA</p>
+                </div>
+                <div class="info">
+                    <b>Date</b>
+                    <p>Summer 2023</p>
+                </div>
+            </div>
             <p>
-                In the summer between my junior and senior years, I interned at NASA Jet Propulsion Laboratory 
-                in the Simulation Software and Test Bed subteam. As a whole, we were working on the Mars Sample 
-                Return mission. Individually, I worked on smoothing out any wrinkles in the test bed. I wrote 
-                multiple python scripts that interfaced with pre-existing hardware on the development rack using 
-                HTTP requests of XML files. These scripts worked to simplify the use of the test bed. Users could 
-                soft reboot, hard reboot, add parameters, define their testing purpose, etc. I also added an 
-                aliveness check using a heartbeat ping from the server to the clients to ensure connectivity. 
-                These scripts were shared with all other teams to add to their own test beds. This experience was 
+                In the summer between my junior and senior years, I interned at NASA Jet Propulsion Laboratory
+                in the Simulation Software and Test Bed subteam. As a whole, we were working on the Mars Sample
+                Return mission. Individually, I worked on smoothing out any wrinkles in the test bed. I wrote
+                multiple python scripts that interfaced with pre-existing hardware on the development rack using
+                HTTP requests of XML files. These scripts worked to simplify the use of the test bed. Users could
+                soft reboot, hard reboot, add parameters, define their testing purpose, etc. I also added an
+                aliveness check using a heartbeat ping from the server to the clients to ensure connectivity.
+                These scripts were shared with all other teams to add to their own test beds. This experience was
                 crucial in learning how to work on legacy code, read manuals, and understand what I'm passionate about.
             </p>
         </section>
