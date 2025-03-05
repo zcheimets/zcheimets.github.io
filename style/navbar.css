@@ -3,7 +3,8 @@ Style for the navbar at the top of each page, including Contact dropdown menu
 */
 
 
-@import "font-def.css";         /*needed to use montserrat font*/
+@import "font-def.css";
+/*needed to use montserrat font*/
 
 .navbar {
     display: flex;
@@ -14,7 +15,8 @@ Style for the navbar at the top of each page, including Contact dropdown menu
     width: 100%;
     background: #312f2e;
 }
-/* navbar header */
+
+/* header */
 .navbar h1 {
     margin-left: 40px;
     font-size: xx-large;
@@ -27,8 +29,10 @@ Style for the navbar at the top of each page, including Contact dropdown menu
     color: #ffffff;
     text-decoration: none;
 }
+
+/* highlight link when hovering */
 .menu a:hover {
-    color:#fbbaba
+    color: #fbbaba
 }
 
 .dropdown {
@@ -36,25 +40,42 @@ Style for the navbar at the top of each page, including Contact dropdown menu
     display: inline-block;
 }
 
+/*when you hover, show dropdown*/
 .dropdown:hover .dropdown-content {
-    display: block;     /*when you hover, show dropdown*/
+    display: block;
 }
 
-.dropdown-button { /*Contact Me button*/
+/* when hovering in dropdown, keep "Contact Me" highlighted */
+.dropdown:hover .dropdown-button {
+    color: #fbbaba;
+}
+
+/*Contact Me button*/
+.dropdown-button {
     margin-right: 20px;
     font-family: montserrat;
     color: #ffffff;
 }
 
 .dropdown-content {
-    display: none; /*Hidden by default*/
+    display: none;  /*Hidden by default*/
     position: absolute;
     background-color: #f9f9f9;
-    max-width: 100px;
+    max-width: 115px;
+    border-radius: 3px;
+    border: 2px solid #5d5d5d;
 }
 
-.dropdown-content a { /*Style each link in the dropdown menu*/
+/*Style each link in the dropdown menu*/
+.dropdown-content a {
     font-family: montserrat;
-    color:#312f2e;
-    align-content: center;
+    color: #312f2e;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.dropdown-content a:hover {
+    background: #5c5957;
+    color: #fad9d9;
 }
