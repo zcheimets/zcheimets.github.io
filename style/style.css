@@ -14,7 +14,7 @@ html {
     scroll-padding-top: 7rem;
 }
 
-header {
+header {        /*everything in the nav bar*/
     font-family: montserrat;
     font-weight: bolder;
     background: #312f2e;
@@ -22,9 +22,10 @@ header {
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #312f2e 3px solid;
+    cursor:default;
 }
 
-header h1 {
+header h1 {     /*"Zoe Cheimets" in the navbar*/
     padding: 5px 0;
 }
 
@@ -74,8 +75,15 @@ footer {
 }
 
 #iss {
-    font-family: montserrat;
+    background-color: #f8dbf8;
+    border-radius: 8px;
+    border: #dfa5f4 solid 2px;
+    justify-items: center;
+    font-family: instruction;
     display: inline;
     font-size: 12px;
-    color: #ffffff;
+    color: #595553;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
