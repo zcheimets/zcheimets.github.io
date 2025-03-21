@@ -68,6 +68,10 @@ body {
     color: #312f2e;
 }
 
+.journey p {
+    font-size:large;
+}
+
 footer {
     background: #f4e5e5;
     padding: 20px 0;

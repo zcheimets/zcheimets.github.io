@@ -17,10 +17,13 @@ Style for the navbar at the top of each page, including Contact dropdown menu
 }
 
 /* header */
-.navbar h1 {
+.navbar h1 a {
     margin-left: 40px;
     font-size: xx-large;
+    text-decoration: none;
+    color:#f9f9f9;
 }
+
 
 /* navbar content */
 .menu a {
