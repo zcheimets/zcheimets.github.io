@@ -70,6 +70,8 @@ body {
 
 .journey p {
     font-size:large;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 footer {
@@ -79,9 +81,9 @@ footer {
 }
 
 #iss {
-    background-color: #f8dbf8;
+    background-color: #f4e5e5;
     border-radius: 8px;
-    border: #dfa5f4 solid 2px;
+    border: #f4d8d8 solid 2px;
     justify-items: center;
     font-family: instruction;
     display: inline;
