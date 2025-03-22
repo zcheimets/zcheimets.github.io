@@ -3,3 +3,17 @@
 .w3-image {
     border-radius: 0px;
 }
+
+.w3-display-middle {
+    opacity: 0;
+    background-color: #fbbaba;
+    color: #312f2e;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.w3-display-container:hover .w3-display-middle {
+    opacity: 1;
+}
+
+
