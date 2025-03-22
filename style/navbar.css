@@ -14,6 +14,7 @@ Style for the navbar at the top of each page, including Contact dropdown menu
     top: 0;
     width: 100%;
     background: #312f2e;
+    z-index: 9999; /* keeps navbar on very top, no content overlays*/
 }
 
 /* header */
