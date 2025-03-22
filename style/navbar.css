@@ -7,6 +7,7 @@ Style for the navbar at the top of each page, including Contact dropdown menu
 /*needed to use montserrat font*/
 
 .navbar {
+    font-family: montserrat;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,8 +18,9 @@ Style for the navbar at the top of each page, including Contact dropdown menu
     z-index: 9999; /* keeps navbar on very top, no content overlays*/
 }
 
-/* header */
-.navbar h1 a {
+#nav_header a {
+    font-family: montserrat;
+    font-weight: bold;
     margin-left: 40px;
     font-size: xx-large;
     text-decoration: none;
@@ -26,10 +28,14 @@ Style for the navbar at the top of each page, including Contact dropdown menu
 }
 
 
+#nav_header a:hover {
+    color:#fbbaba;
+}
+
+
 /* navbar content */
 .menu a {
     margin-right: 20px;
-    font-family: montserrat;
     color: #ffffff;
     text-decoration: none;
 }
@@ -57,7 +63,6 @@ Style for the navbar at the top of each page, including Contact dropdown menu
 /*Contact Me button*/
 .dropdown-button {
     margin-right: 20px;
-    font-family: montserrat;
     color: #ffffff;
 }
 
@@ -67,12 +72,11 @@ Style for the navbar at the top of each page, including Contact dropdown menu
     background-color: #f9f9f9;
     max-width: 115px;
     border-radius: 3px;
-    border: 2px solid #5d5d5d;
+    /* border: 2px solid #5d5d5d; */
 }
 
 /*Style each link in the dropdown menu*/
 .dropdown-content a {
-    font-family: montserrat;
     color: #312f2e;
     text-align: center;
     width: 100%;
@@ -80,6 +84,6 @@ Style for the navbar at the top of each page, including Contact dropdown menu
 }
 
 .dropdown-content a:hover {
-    background: #5c5957;
+    /* background: #5c5957; */
     color: #fad9d9;
 }

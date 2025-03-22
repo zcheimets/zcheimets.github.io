@@ -12,10 +12,10 @@ Defines general use style:
 html {
     /* keeps anchor points from opening behind the navbar */
     scroll-padding-top: 7rem;
+    font-family: montserrat;
 }
 
 header {        /*everything in the nav bar*/
-    font-family: montserrat;
     font-weight: bolder;
     background: #312f2e;
     color: #ffffff;
@@ -45,7 +45,6 @@ img {
 
 
 body {
-    font-family: montserrat;
     font-weight: 300;
     font-size: larger;
     margin: 0;
