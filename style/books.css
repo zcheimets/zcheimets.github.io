@@ -1,21 +1,94 @@
+#books_p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    font-family: montserrat;
+    font-size: large;
+}
+
+h3 {
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+/* Recently Read Books */
+
+h2 {
+  font-size: x-large;  
+  font-weight: 550;
+}
+
 .gr_grid_container {
-    /* customize grid container div here. eg: width: 500px; */
+    width: 73%;
 }
 
 .gr_grid_book_container {
-    /* customize book cover container div here */
     float: left;
     width: 98px;
     height: 160px;
-    padding: 0px 0px;
+    padding: 0px;
     overflow: hidden;
 }
 
-#gr_grid_widget_1742569809 h2 a {
-    font-family: montserrat;
-    color: black;
+.gr_grid_book_container img:hover {
+    opacity: 0.7;
 }
 
-#gr_grid_widget_1742569809 img:hover {
-    opacity: 0.7;
+
+/* Currently Reading Block Style */
+
+.gr_custom_container_1743032697 {
+    /* customize your Goodreads widget container here*/
+    border: 2px solid #312f2e;
+    border-radius: 15px;
+    padding: 10px 5px 10px 5px;
+    background-color: #fbdddd;
+    color: #312f2e;
+    min-width: 120px;
+    width: 23%;
+    float: right;
+    margin: 25px;
+}
+
+.gr_custom_header_1743032697 {
+    /* Header */
+    font-family: montserrat;
+    font-weight: 1000;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 120%
+}
+
+.gr_custom_each_container_1743032697 {
+    /* Book Container */
+    width: 100%;
+    clear: both;
+    margin-bottom: 0px;
+    overflow: auto;
+    text-align: center;
+}
+
+.gr_custom_book_container_1743032697 {
+    /* Book Cover */
+    overflow: hidden;
+    max-height: 160px;
+    width: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.gr_custom_book_container_1743032697:hover {
+    opacity: 0.75;
+}
+
+.gr_custom_title_1743032697 a {
+    text-decoration: none;
+}
+
+.gr_custom_author_1743032697 a {
+    text-decoration: none;
 }

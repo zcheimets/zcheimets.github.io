@@ -16,4 +16,18 @@
     opacity: 1;
 }
 
+h3 {
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: montserrat;
+    font-weight: bold;
+}
 
+#dogs_p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    font-family: montserrat;
+    font-size: large;
+}
