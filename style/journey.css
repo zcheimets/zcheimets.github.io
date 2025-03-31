@@ -15,4 +15,9 @@
 .container p {
     margin: 30px;
     text-indent: 15px;
+    font-size: large;
+}
+
+.container h3 {
+    font-size: x-large;
 }
