@@ -10,7 +10,7 @@ async function getData() {
                 lat = data.latitude;
                 long = data.longitude;
                 const ISSContainer = document.getElementById('iss');
-                ISSContainer.innerHTML = `<p>Current Location of the International Space Station:</p><p>(${lat}, ${long})</p>`;
+                ISSContainer.innerHTML = `<img src="/img/iss_png_black.png"><p>Current Location of the International Space Station:(${lat}, ${long})</p>`;
             })
             .catch(error => {
                 console.error('Error fetching the ISS location:', error);

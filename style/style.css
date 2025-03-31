@@ -35,15 +35,6 @@ img {
     border-radius: 8px;
 }
 
-.about img {
-    max-width: 20%;
-    height: auto;
-    border-radius: 50%;
-    float: left;
-    margin-right: 20px;
-}
-
-
 body {
     font-weight: 300;
     font-size: larger;
@@ -69,11 +60,24 @@ body {
 }
 
 .about,
-.contact,
 .journey,
 .work {
+    width: 80%;
     margin: 40px 0;
     color: #312f2e;
+    justify-self: center;
+}
+
+.about img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.about p {
+    font-size: large;
 }
 
 .journey p {
@@ -87,16 +91,4 @@ footer {
     background: #f4e5e5;
     padding: 20px 0;
     text-align: center;
-}
-
-#iss {
-    background-color: #f4e5e5;
-    border-radius: 8px;
-    border: #f4d8d8 solid 2px;
-    justify-items: center;
-    font-family: instruction;
-    display: inline;
-    font-size: 12px;
-    color: #595553;
-    margin: 5px;
 }
