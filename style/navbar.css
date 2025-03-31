@@ -6,6 +6,20 @@ Style for the navbar at the top of each page, including Contact dropdown menu
 @import "font-def.css";
 /*needed to use montserrat font*/
 
+header {        /*everything in the nav bar*/
+    font-weight: bolder;
+    background: #312f2e;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #312f2e 3px solid;
+    cursor:default;
+}
+
+header h1 {     /*"Zoe Cheimets" in the navbar*/
+    padding: 5px 0;
+}
+
 #iss {
     background-color: #f4e5e5;
     border-radius: 8px;

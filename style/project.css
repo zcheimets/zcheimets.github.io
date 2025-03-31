@@ -15,6 +15,12 @@ Style for project-related elements:
     gap: 20px;
 }
 
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
 .project {
     height: auto;
     display: flex;
@@ -47,4 +53,24 @@ Style for project-related elements:
 .proj-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.w3-image {
+    padding: 10px;
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.w3-display-middle {
+    opacity: 0;
+    background-color: #fff6f6;
+    color: #312f2e;
+    padding: 6px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.w3-display-container:hover .w3-display-middle {
+    opacity: 1;
 }

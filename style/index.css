@@ -1,0 +1,39 @@
+/* CSS for the index page */
+
+
+.about,
+.journey,
+.work {
+    width: 90%;
+    margin: 40px 0;
+    color: #312f2e;
+    justify-self: center;
+}
+
+.about img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.about p {
+    font-size: large;
+}
+
+.journey a {
+    text-decoration: none;
+    color:#312f2e;
+}
+
+.journey a:hover {
+    color:#a07171;
+}
+
+.journey p {
+    text-indent: 15px;
+    font-size:large;
+    padding-left: 15px;
+    padding-right: 15px;
+}
